@@ -1,0 +1,37 @@
+{
+  "name": "lab-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Domaniac/ICT2216-Lab-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Domaniac/ICT2216-Lab-test/issues"
+  },
+  "homepage": "https://github.com/Domaniac/ICT2216-Lab-test#readme",
+  "description": "",
+  "devDependencies": {
+    "@microsoft/eslint-formatter-sarif": "^3.1.0",
+    "eslint": "^9.31.0",
+    "eslint-plugin-security": "^3.0.1",
+    "mocha": "^11.7.1"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.38.0",
+    "@typescript-eslint/parser": "^8.38.0",
+    "eslint-plugin-no-unsanitized": "^4.1.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-security-node": "^1.1.4",
+    "express": "^5.1.0"
+  }
+}
